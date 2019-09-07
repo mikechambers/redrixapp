@@ -21,11 +21,11 @@ Features include:
 
 ### Android
 
-During development you can find information on how to install the appliction from an APK file on Android [here](https://www.lifewire.com/install-apk-on-android-4177185).
+During development you can find information on how to install the application from an APK file on Android [here](https://www.lifewire.com/install-apk-on-android-4177185).
 
 ### iOS / iPhone
 
-Currently the application is not avaliable for testing on iOS.
+Currently the application is not available for testing on iOS.
 
 ## Usage
 
@@ -41,31 +41,76 @@ You can view historical graphs for your stats by clicking the graph icon on the 
 
 #### How much does Redrix cost?
 
+Redrix is free.
+
 #### Where can I report a bug or log feature requests?
+
+You can submit feature requests, or log bugs [here](https://github.com/mikechambers/redrix/issues).
 
 #### Does Redrix support crossplay accounts?
 
+Yes. Just log in with your primary account.
+
 #### What format do you I use to input my gamertag for PC?
 
-#### Which are stats displayed for my match history?
+For PC, you must use the following format: GAMERTAG#ID. For example foo#1134.
+
+#### Which stats displayed for my match history?
+
+Redrix displays the following stats in your match history:
+
+*  **K+A** : Kills + Assists : This is the same as opponents defeated displayed within Destiny 2.
+*  **KA / D** : Kills + Assists / Deaths. This is the efficiency value displayed within Destiny 2.
+*  **K / D** : Kills / Deaths. This is your kills to deaths ratio, not including assists.
 
 #### Why doesnt my streak match up with my game history?
+
+Streaks are calculated across characters, glory / valor and resets, and thus may not always reflect your current win streak in your activity feed. However, the streaks presented are from Bungie, and accurate.
 
 ### Errors
 
 #### I got an "An unknown error has occurred" error, what should I do?
 
+You may get this error is something unexpected occurs, usually a temporary issue with the Destiny 2 API. Often the issue will go away on its own, or after an app restart. If it does not, please [log an issue](https://github.com/mikechambers/redrix/issues), including your gamertag and platform.
+
 #### I got an "Error communicating with Destiny server" error, what should I do?
+
+This error occurs when the app cannot communicate with the Destiny 2 API server, usually caused by lack of network connect. Check that you have internet connectivity and try again.
 
 #### I got an "Unable to sign in. Check your gamer tag and try again." error, what should I do?
 
+This error occurs when your gamertag cannot be found for the specified platform. Make sure that you:
+
+* Select the correct platform
+* If on PC, format your gamer tag using the GAMERTAG#ID format.
+
 #### I got an "Fatal error. Please restart app." error, what should I do?
+
+This error occurs when something goes wrong that prevents the app from running. If you hit this error, please [log an issue](https://github.com/mikechambers/redrix/issues).
+
+Potential work arounds include:
+
+*  Restarting the app (make sure to completely close it)
+*  Deleting and reinstalling the app
 
 #### I got an "Your Bungie.net privacy settings are too restrictive." error, what should I do?
 
+Redrix requires that your privacy settings for your Destiny 2 / Bungie account are set to be public. You can update your privacy settings by logging into your Bungie account at [bungie.net](https://www.bungie.net), and navigating to Settings > Privacy.
+
+Redrix requires the following two items to be checked:
+
+*  Show my Destiny game Activity Feed on Bungie.net
+*  Show my Progression (what I've completed in Destiny, and my current status)
+
+
+
 #### I got an "No characters found for account." error, what should I do?
 
+This error occurs if you have created a bungie Id, but have yet to create any characters in Destiny 2.
+
 #### I got an "Destiny API is currently down for maintenance." error, what should I do?
+
+This error means that the Destiny 2 API is down for maintenance, usually occurring during weekly resets. Simply wait a few minutes until the API is available.
 
 
 

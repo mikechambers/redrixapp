@@ -21,11 +21,9 @@ Features include:
 
 ### Android
 
-During development you can find information on how to install the application from an APK file on Android [here](https://www.lifewire.com/install-apk-on-android-4177185).
 
 ### iOS / iPhone
 
-Currently the application is not available for testing on iOS.
 
 ## Usage
 

@@ -1,5 +1,7 @@
-# redrix
-Redrix is a free Destiny 2 crucible companion app available for iOS and Android.
+# Redrix
+Redrix is a free Destiny 2 crucible companion app available for iOS and Android that helps you track and improve you PvP skills.
+
+You can find more information at [redrix.io](http://redrix.io)
 
 ## Features
 
@@ -7,12 +9,12 @@ Features include:
 *  Current crucible map and game type displayed as you are loading into a match.
 *  Combined and individual stats for recent games, including K/D, efficiency, and opponents defeated.
 *  Current valor and glory level.
-*  Current valor and glory streaks (accurate across characters).
+*  Current valor and glory streaks (accurate across characters and playlists).
 *  Detailed graphs showing trends over recent games.
 *  Ability to easily switch between characters and players.
 *  Support for destiny accounts on PC, Xbox and Playstation.
 
-## Release
+## Releases
 
 [Release Notes](RELEASE.md)
 
@@ -53,9 +55,9 @@ Yes. Just log in with your primary account.
 
 For PC, you must use the following format: GAMERTAG#ID. For example foo#1134.
 
-#### Which stats displayed for my match history?
+#### Which stats are displayed for my match history and what do they mean?
 
-Redrix displays the following stats in your match history:
+Redrix currently displays the following stats in your match history:
 
 *  **K+A** : Kills + Assists : This is the same as opponents defeated displayed within Destiny 2.
 *  **KA / D** : Kills + Assists / Deaths. This is the efficiency value displayed within Destiny 2.
@@ -67,13 +69,9 @@ Streaks are calculated across characters, glory / valor and resets, and thus may
 
 ### Errors
 
-#### I got an "An unknown error has occurred" error, what should I do?
-
-You may get this error is something unexpected occurs, usually a temporary issue with the Destiny 2 API. Often the issue will go away on its own, or after an app restart. If it does not, please [log an issue](https://github.com/mikechambers/redrix/issues), including your gamertag and platform.
-
 #### I got an "Error communicating with Destiny server" error, what should I do?
 
-This error occurs when the app cannot communicate with the Destiny 2 API server, usually caused by lack of network connect. Check that you have internet connectivity and try again.
+This error occurs when the app cannot communicate with the Destiny 2 API server, usually caused by lack of network connection. Check that you have internet connectivity and try again.
 
 #### I got an "Unable to sign in. Check your gamer tag and try again." error, what should I do?
 
@@ -81,16 +79,7 @@ This error occurs when your gamertag cannot be found for the specified platform.
 
 * Select the correct platform
 * If on PC, format your gamer tag using the GAMERTAG#ID format.
-* Gamer tags are case sensitive, so make sure you are using the correct case.
-
-#### I got an "Fatal error. Please restart app." error, what should I do?
-
-This error occurs when something goes wrong that prevents the app from running. If you hit this error, please [log an issue](https://github.com/mikechambers/redrix/issues).
-
-Potential work arounds include:
-
-*  Restarting the app (make sure to completely close it)
-*  Deleting and reinstalling the app
+* Use the correct case for your gamer tag (tags are case sensitive)
 
 #### I got an "Your Bungie.net privacy settings are too restrictive." error, what should I do?
 
@@ -102,7 +91,6 @@ Redrix requires the following two items to be checked:
 *  Show my Progression (what I've completed in Destiny, and my current status)
 
 
-
 #### I got an "No characters found for account." error, what should I do?
 
 This error occurs if you have created a bungie Id, but have yet to create any characters in Destiny 2.
@@ -111,5 +99,15 @@ This error occurs if you have created a bungie Id, but have yet to create any ch
 
 This error means that the Destiny 2 API is down for maintenance, usually occurring during weekly resets. Simply wait a few minutes until the API is available.
 
+#### I got an "An unknown error has occurred" error, what should I do?
 
+You may get this error is something unexpected occurs, usually a temporary issue with the Destiny 2 API. Often the issue will go away on its own, or after an app restart. If it does not, please [log an issue](https://github.com/mikechambers/redrix/issues), including your gamertag and platform.
 
+#### I got an "Fatal error. Please restart app." error, what should I do?
+
+This error occurs when something goes wrong that prevents the app from running. If you hit this error, please [log an issue](https://github.com/mikechambers/redrix/issues).
+
+Potential work arounds include:
+
+*  Restarting the app (make sure to completely close it)
+*  Deleting and reinstalling the app

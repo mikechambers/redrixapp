@@ -47,6 +47,7 @@ Redrix is free.
 
 You can submit feature requests, or log bugs [here](https://github.com/mikechambers/redrix/issues).
 
+
 #### Does Redrix support crossplay accounts?
 
 Yes. Just log in with your primary account.

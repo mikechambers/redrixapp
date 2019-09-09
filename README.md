@@ -63,7 +63,7 @@ Redrix displays the following stats in your match history:
 *  **KA / D** : Kills + Assists / Deaths. This is the efficiency value displayed within Destiny 2.
 *  **K / D** : Kills / Deaths. This is your kills to deaths ratio, not including assists.
 
-#### Why doesnt my streak match up with my game history?
+#### Why doesn't my streak match up with my game history?
 
 Streaks are calculated across characters, glory / valor and resets, and thus may not always reflect your current win streak in your activity feed. However, the streaks presented are from Bungie, and accurate.
 
@@ -83,6 +83,7 @@ This error occurs when your gamertag cannot be found for the specified platform.
 
 * Select the correct platform
 * If on PC, format your gamer tag using the GAMERTAG#ID format.
+* Gamer tags are case sensitive, so make sure you are using the correct case.
 
 #### I got an "Fatal error. Please restart app." error, what should I do?
 
